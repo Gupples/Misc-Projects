@@ -1,0 +1,25 @@
+/* body {
+    overflow-x: auto;
+} */
+table {
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+table, th, td {
+    border: 5px solid green;
+    border-collapse: collapse;
+    padding: 0 15px;
+}
+
+th {
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+button {
+    margin-left: 15px;
+    margin-top: 15px;
+}
