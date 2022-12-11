@@ -1,0 +1,43 @@
+<!-- live site = https://gupples.github.io/Misc-Projects/DND-Character-Generator-Site/dnd-character-generator.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dungeons and Dragons Character Generator</title>
+    <script src="dnd-character-generator.js" defer></script>
+    <link rel="stylesheet" href="dnd-character-generator.css" />
+</head>
+<body>
+    <h1>Welcome to the Dungeons and Dragons Character Generator!</h1>
+    <!-- Input fields -->
+    <label for="enterName">Name:</label>
+    <input id="enterName" />
+    <label for="enterGender">Gender:</label>
+    <input id="enterGender" />
+    <!-- Generate Button -->
+    <button id="generate">Generate!</button>
+    <!-- Clear Button -->
+    <button id="clear">Clear</button>
+    <!-- Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Race</th>
+                <th>Class</th>
+                <th>Background</th>
+                <th>STR</th>
+                <th>DEX</th>
+                <th>CON</th>
+                <th>INT</th>
+                <th>WIS</th>
+                <th>CHA</th>
+            </tr>
+        </thead>
+        <tbody id="table"></tbody>
+    </table>
+</body>
+</html>
